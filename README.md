@@ -43,7 +43,7 @@ We developed a custom Python extractor using **Scapy** to convert raw .pcap file
 The generated CSV was used to train an **XGBoost Classifier**, which demonstrated superior performance in detecting complex patterns compared to other algorithms.
 
 ## **📂 Repository Structure**
-
+```
 Intelligent-IDS/  
 ├── IDS\_Models.ipynb             \# Research notebook (Exploration & Comparison)  
 ├── benign.pcap                  \# Raw Capture: Normal traffic  
@@ -70,7 +70,7 @@ Intelligent-IDS/
 │   └── sniffer\_http.py          \# The Host Script (The Eyes)  
 │  
 └── README.md
-
+```
 ## **🛠️ Installation & Usage**
 
 ### **Prerequisites**
